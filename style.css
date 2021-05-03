@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/2b/81/72/2b81722b672a0bb023c61f7a5154aeb8.jpg");
+    background-size: contain;
+}
+h2 {
+	border-radius: 10px;
+	width: 300px;
+	padding: 5px;
+}
+#rounder {
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.currents {
+	color: black;	
+}
+#head_info {
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+h3 {
+	display: inline-block;
+}
+#myCanvas {
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+}

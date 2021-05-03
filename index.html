@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Make your superhero!</title>
+        <link rel="icon" href="Iron man head.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="fabric.js"></script>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <h2 class="btn-success">Make your superhero!</h2>
+            <h3 id="rounder" class="btn-danger">Scroll down for more details</h3>
+            <div id="head_info" class="btn-warning">
+                <h3>Current width = <span class="currents" id="current_width">50</span></h3>
+                <h3>Current height = <span class="currents" id="current_height">50</span></h3>
+            </div>
+            <canvas height="1000" width="1000" id="myCanvas"></canvas>
+            <br>
+            <br>
+            <div style="width: 600px; border-radius: 10px; margin-bottom: 10px; padding: 10px; font-size: 30px;" class="btn-success">
+                <ul>
+                    <li>Shift + 1 = increase block width</li>
+                    <li>Shift + 2 = decreases block width</li>
+                    <li>Shift + 3 = increase block height</li>
+                    <li>Shift + 4 = decreases block height</li>
+                    <li>Up = move player up</li>
+                    <li>Down = move player down</li>
+                    <li>Left = move player left</li>
+                    <li>Right = move player right</li>
+                    <li>a = show captain america body</li>
+                    <li>b = show captain america head</li>
+                    <li>c = show captain america left hand</li>
+                    <li>d = show captain america legs</li>
+                    <li>e = show captain america right hand</li>
+                    <li>f = show hulk body</li>
+                    <li>g = show hulk head</li>
+                    <li>h = show hulk left hand</li>
+                    <li>i = show hulk legs</li>
+                    <li>j = show hulk right hand</li>
+                    <li>k = show iron man body</li>
+                    <li>l = show iron man head</li>
+                    <li>m = show iron man left hand</li>
+                    <li>n = show iron man legs</li>
+                    <li>o = show iron man right hand</li>
+                    <li>p = show spider man body</li>
+                    <li>q = show spider man head</li>
+                    <li>r = show spider man left hand</li>
+                    <li>s = show spider man legs</li>
+                    <li>t = show spider man right hand</li>
+                    <li>u = show thor body</li>
+                    <li>v = show thor head</li>
+                    <li>w = show thor left hand</li>
+                    <li>x = show thor legs</li>
+                    <li>y = show thor right hand</li>
+                </ul>
+                <b style="color: black;">Note: </b>The canvas is divided into two section with a line which disappears after pressing any key. The part below the line is there for showing the image for reference and the one above is where the real image comes. For making the real image come, press shift with the keys from a to y.
+            </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
